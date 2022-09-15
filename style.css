@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        align-items: center;
+    }
+  body{
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(192, 100%, 9%);
+    text-align: center;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+  }
+  h1,h2{
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  .bg-pink{
+    background-color: hsl(322, 100%, 66%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 0 none;
+  }
+  .border-color{
+    border: 1px solid hsl(321, 100%, 78%);
+    color: hsl(0, 100%, 63%);
+    background: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .icon{
+    width: 30px;
+    height: 30px;
+  }
+  .grow{
+    background-color: hsl(207, 100%, 98%);
+  }
+  .w-vw >img{
+    min-width: 100vw;
+    object-fit: cover;
+  }
+  .footer{
+    background-color: hsl(192, 100%, 9%);
+    color: white;  
+  }
+  .logo{
+    display: flex;
+    justify-content:start;
+  }
+  .w-45{
+    width: 45%;
+  }
+  
+  @media (max-width:500px) {
+    .d-flex{
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .grow>.d-flex{
+        flex-direction: column-reverse !important;
+    }
+    .w-50{
+        width: 100% !important;
+        
+      }
+      section .text-start{
+        text-align: center !important;
+      }
+    .w-45{
+        width: 70%;
+    }
+     
+  }
+
+
+
+  .attribution { font-size: 16px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
